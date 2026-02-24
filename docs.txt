@@ -1,0 +1,43 @@
+This is just a brain dump of what this program does and is for interim documentation processes.
+
+So I am making an application that will allow me (user) to track my job applications.
+For each job application, I want to track the following:
+
+- Job Title
+- Company Name
+- The status of the application (e.g Applied, Interviewing, Offer, Rejection)
+- Date of Application
+
+The application will work as follows:
+
+1. The user will click on the "Add Application" button.
+2. A form will appear in a modal dialog where the user can enter the job title, company name, status, and date of application.
+3. After filling out the form, the user will click "Submit" to save the application
+4. The data must be stored in a database (This will be a SQL database)
+5. The application will display a list of all job applications in a table format.
+6. The user can edit or delete any application from the list.
+
+Tech stack I will be using will be relatively simple and will include:
+HTML,CSS, JavaScript for the frontend
+and SQL for the backend database.
+Since I am most familiar with Node.js and Express, I will use them for any server-side logic 
+
+I am in the beginning stages of this project and so far it has the following features:
+- Basic HTML structure for the application
+- A form for adding job applications
+- A table to display job applications
+- Basic styling with CSS
+- Functionality to add applications to the list
+
+For the rest of the day I will focus on:
+-Creating the DB and connecting it to the application
+- Deploying the application, most likely using something like Vercel or Render
+- Adding this project to my GitHub for version control
+
+
+19:33 We have created a GET and POST API endpoint 
+
+There is no collaboration on this project as it is a personal project for my own use. However, I will keep the code open-source on GitHub for anyone who might find it useful or want to contribute in the future.
+
+
+

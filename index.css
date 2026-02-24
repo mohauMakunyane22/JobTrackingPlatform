@@ -1,0 +1,73 @@
+.table-container {
+  /* Defines the scrolling area height and enables vertical scrolling */
+  max-height: 300px; /* Adjust height as needed */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+
+table {
+  /* Ensures consistent column widths, especially with horizontal scrolling */
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* */
+}
+
+thead th {
+  /* Key properties for the sticky header */
+  position: sticky;
+  top: 0; /* Sticks to the top of its scroll container (.table-container) */
+  
+  /* Styling for visibility */
+  background-color: #050101; /* Essential so text below doesn't show through */
+  color: white;
+  z-index: 1; /* Ensures the header stays above other table content */
+}
+
+th, td {
+  /* General cell styling */
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+h1{
+    text-align:center;
+    color: rgb(8, 8, 0);
+}
+.open-btn {
+  background-color: blue;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  
+}
+.open-btn:hover {
+  opacity: 1;
+  background-color: darkblue;
+}
+.delete-btn {
+  background-color: red;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background-color: darkred;
+}
+.edit-btn {
+  background-color: green;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+.edit-btn:hover {
+  background-color: darkgreen;
+}
