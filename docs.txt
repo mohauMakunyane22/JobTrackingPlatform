@@ -36,6 +36,11 @@ For the rest of the day I will focus on:
 
 
 19:33 We have created a GET and POST API endpoint 
+we have created a put API endpoint to update the status of an application
+and a delete API endpoint to remove an application from the list.
+these are connected to our frontend using fetch API calls.
+- The application is now able to add, view, update, and delete job applications.
+- The application is styled with CSS to make it visually appealing.
 
 There is no collaboration on this project as it is a personal project for my own use. However, I will keep the code open-source on GitHub for anyone who might find it useful or want to contribute in the future.
 
